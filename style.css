@@ -56,6 +56,8 @@ li {
 	display: inline-block;
 }
 
-img:hover {
-	transform: scale(1.1);
+.front-img {
+	float: right;
+	margin-right: 13%;
+	margin-top: -5%;
 }
