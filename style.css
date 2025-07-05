@@ -35,6 +35,13 @@ h1 {
 	cursor: pointer;
 }
 
+footer {
+	position: absolute;
+	bottom: 5px;
+	left: 7%;
+	right: 7%;
+}
+
 .front {
 	margin-left: 8%;
 	margin-top: 10%;
