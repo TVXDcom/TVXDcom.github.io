@@ -69,6 +69,7 @@ li {
 .fronttest {
 	/*position: absolute;*/
 	display: flex;
+	flex-direction: row;
 	margin: 0 auto;
 	top: 25%;
 	left: 9%;
