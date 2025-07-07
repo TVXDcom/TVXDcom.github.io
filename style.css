@@ -62,13 +62,14 @@ li {
 }
 
 .front-img {
-	margin-left: 7%;
+	/*margin-left: 7%;*/
 	margin-top: 2%;
 }
 
 .fronttest {
 	/*position: absolute;*/
 	display: flex;
+	gap: 7%;
 	flex-direction: row;
 	margin: 0 auto;
 	top: 25%;
@@ -83,7 +84,14 @@ li {
 
 @media (max-width: 800px) {
   .fronttest {
-    
     flex-direction: column;
+  }
+  .front-img {
+  	/*margin-left: -16%;*/
+  	transform: scale(0.7);
+  	align-self: center;
+  }
+  .front {
+  	align-self: center;
   }
 }
